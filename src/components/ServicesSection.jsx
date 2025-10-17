@@ -149,7 +149,7 @@ const ServicesSection = () => {
       // NMR and Contract-Based Labour section with extra padding and margin
       return (
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-6 lg:space-y-4 max-w-8xl">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-6 lg:space-y-4 max-w-8xl">
             {category.services.map((service, serviceIndex) => {
               const Icon = service.icon;
               return (
@@ -157,11 +157,11 @@ const ServicesSection = () => {
                   key={serviceIndex}
                   className="group transform hover:scale-105 transition-transform duration-300"
                 >
-                  <div className="bg-white rounded-2xl p-4 lg:p-2 shadow-lg border border-gray-200 group-hover:shadow-xl group-hover:border-blue-300 transition-all duration-300 text-center h-32 lg:h-40 flex flex-col items-center justify-center">
-                    <div className="w-18 h-18 lg:w-14 lg:h-14 bg-gradient-to-br from-blue-400 to-blue-500 rounded-xl flex items-center justify-center mb-6 group-hover:from-blue-500 group-hover:to-blue-600 transition-all duration-300">
-                      <Icon className="h-9 w-9 lg:h-7 lg:w-7 text-black" />
+                  <div className="bg-white rounded-2xl lg:p-2 shadow-lg border border-gray-200 group-hover:shadow-xl group-hover:border-blue-300 transition-all duration-300 text-center h-32 lg:h-40 flex flex-col items-center justify-center">
+                    <div className="w-14 h-14 lg:w-14 lg:h-14 bg-gradient-to-br from-blue-400 to-blue-500 rounded-xl flex items-center justify-center mb-6 group-hover:from-blue-500 group-hover:to-blue-600 transition-all duration-300">
+                      <Icon className="h-7 w-7 lg:h-7 lg:w-7 text-black" />
                     </div>
-                    <h4 className="text-base lg:text-md font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 leading-tight px-2">
+                    <h4 className="text-xs lg:text-md font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 leading-tight px-2">
                       {service.name}
                     </h4>
                   </div>
@@ -214,7 +214,7 @@ const ServicesSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Our{" "}
-            <span className="text-blue-500" style={{ fontWeight: "800" }}>
+            <span className="text-blue-500" style={{ fontWeight: "700" }}>
               Services
             </span>
           </h2>
