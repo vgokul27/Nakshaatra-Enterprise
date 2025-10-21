@@ -35,7 +35,7 @@ const Navbar = () => {
               className="h-10 sm:h-12 w-auto object-contain drop-shadow-sm hover:drop-shadow-md transition-all duration-300 mr-3"
             />
             <div>
-              <h1 className="text-lg sm:text-xl font-bold text-gray-800 leading-tight">
+              <h1 className="text-md sm:text-xl font-bold text-gray-800 leading-tight">
                 NAKSHAATRA ENTERPRISE
               </h1>
             </div>

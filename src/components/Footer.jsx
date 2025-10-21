@@ -115,7 +115,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <MapPin className="h-5 w-5 text-blue-400 mr-3 flex-shrink-0" />
-                <span className="text-gray-300">Chennai, Tamil Nadu</span>
+                <span className="text-gray-300">West Bengal</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-blue-400 mr-3 flex-shrink-0" />
@@ -124,7 +124,7 @@ const Footer = () => {
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-blue-400 mr-3 flex-shrink-0" />
                 <span className="text-gray-300">
-                  info@Nakshaatra Enterprisesindia.com
+                  info@nakshaatra.com
                 </span>
               </div>
             </div>

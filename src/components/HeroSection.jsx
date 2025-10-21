@@ -44,7 +44,7 @@ const HeroSection = () => {
             </motion.p>
 
             <motion.div
-              className="flex flex-col sm:flex-row gap-4 mb-12 w-full"
+              className="flex flex-row sm:flex-row gap-4 mb-12 w-full"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}

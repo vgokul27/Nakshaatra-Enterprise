@@ -27,24 +27,13 @@ const ContactSection = () => {
 
   const offices = [
     {
-      city: "Chennai (Headquarters)",
-      address:
-        "16th Floor, 69, Pattur Koot Road, Temple, Kundrathur Road, off Mangadu, SriPandian Nagar, Mangadu, Chennai, Tamil Nadu - 600122",
-      phone: "+91 93636 51657",
-      email: "info@nakshaatraenterprises.in",
-    },
-    {
-      city: "Hyderabad",
-      address: "H. NO .124 Flat no 14, Saraswathi Nagar, Lothkunta HYD",
-      phone: "+91 40 4567 8901",
-      email: "info@nakshaatraenterprises.in",
-    },
-    {
       city: "West Bengal",
-      address: "WEBEL IT Park, Module 401, 4th Floor, Rajarhat, West Bengal",
-      phone: "+91 22 6789 0123",
-      email: "info@nakshaatraenterprises.in",
+      address:
+        "M/s Nakshaatra Enterprise Village: New Gopalpur, Para: New Gopalpur Police Station: Ranaghat, PO: Pritinagar  District: Nadia State: West Bengal, Pin: 741247",
+      phone: "+91 93636 51657",
+      email: "info@nakshaatra.com",
     },
+    
   ];
 
   const services = [
@@ -257,7 +246,7 @@ const ContactSection = () => {
                   <div className="ml-4">
                     <div className="font-semibold text-gray-900">Email</div>
                     <div className="text-gray-600">
-                      info@nakshaatraenterprises.in
+                      dola@nakshaatra.com
                     </div>
                   </div>
                 </div>
@@ -291,7 +280,7 @@ const ContactSection = () => {
             {/* Office Locations */}
             <div className="bg-white rounded-3xl p-8 shadow-lg border border-gray-100">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Our Offices
+                Our Office
               </h3>
 
               <div className="space-y-6 max-h-96 overflow-y-auto">

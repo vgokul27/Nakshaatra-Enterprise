@@ -41,20 +41,16 @@ const AboutSection = () => {
 
   const leadership = [
     {
-      name: "Ajay Sharma",
-      role: "CEO & Founder Director",
-      image: "ajay-sharma.jpg",
+      name: "Dola Sharma",
+      role: "Managing Partner",
+      image: "dolaSharma.jpg",
     },
     {
       name: "Sunil K Nair",
       role: "General Manager - Business Head (PAN INDIA)",
       image: "sunil.jpg",
     },
-    {
-      name: "Dola Sharma",
-      role: "Partner Resourcing",
-      image: ".jpg",
-    },
+    
     {
       name: "Shanta R",
       role: "Key Account Manager -  Resource",
@@ -66,19 +62,24 @@ const AboutSection = () => {
       image: "shubajit.jpg",
     },
     {
-      name: "Sanjoy Roy",
+      name: "Sanjay Roy",
       role: "Site Coordinator (PAN INDIA)",
       image: "sanjay.jpg",
     },
     {
-      name: "Ashok C",
-      role: "Site Supervisor (Mundra Gujrat)",
-      image: ".jpg",
+      name: "Tapashendra Paul",
+      role: "Resource officer Labour mobilisation",
+      image: "paul.jpg",
     },
     {
       name: "Mahaveer Chowdhry",
       role: "Site Supervisor - Orrisa & Surat",
       image: "mahaveer-chowdhry.jpg",
+    },
+    {
+      name: "Rimpa Mondal",
+      role: "Resource Officer",
+      image: ".jpg",
     },
   ];
 
