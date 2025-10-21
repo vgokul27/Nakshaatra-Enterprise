@@ -233,7 +233,7 @@ const ContactSection = () => {
             viewport={{ once: true }}
           >
             {/* Quick Contact */}
-            <div className="bg-white rounded-3xl p-8 shadow-lg border border-gray-100">
+            <div className="bg-white rounded-3xl p-10 shadow-lg border border-gray-100">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
                 Quick Contact
               </h3>
@@ -292,7 +292,7 @@ const ContactSection = () => {
                     <h4 className="font-semibold text-gray-900 mb-2">
                       {office.city}
                     </h4>
-                    <div className="text-sm text-gray-600 space-y-1">
+                    <div className="text-sm text-gray-600 space-y-4">
                       <div className="flex items-start">
                         <MapPin className="h-4 w-4 text-gray-400 mt-0.5 mr-2 flex-shrink-0" />
                         <span>{office.address}</span>
