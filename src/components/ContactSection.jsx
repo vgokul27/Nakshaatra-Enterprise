@@ -30,8 +30,8 @@ const ContactSection = () => {
       city: "West Bengal",
       address:
         "M/s Nakshaatra Enterprise Village: New Gopalpur, Para: New Gopalpur Police Station: Ranaghat, PO: Pritinagar  District: Nadia State: West Bengal, Pin: 741247",
-      phone: "+91 93636 51657",
-      email: "info@nakshaatra.com",
+      phone: "+91 81014 72667",
+      email: "dola@nakshaatra.com",
     },
     
   ];
@@ -257,7 +257,7 @@ const ContactSection = () => {
                   </div>
                   <div className="ml-4">
                     <div className="font-semibold text-gray-900">Phone</div>
-                    <div className="text-gray-600">+91 93636 51657</div>
+                    <div className="text-gray-600">+91 81014 72667</div>
                   </div>
                 </div>
 
