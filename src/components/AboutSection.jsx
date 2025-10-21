@@ -79,7 +79,7 @@ const AboutSection = () => {
     {
       name: "Rimpa Mondal",
       role: "Resource Officer",
-      image: ".jpg",
+      image: "mondal.jpg",
     },
   ];
 
