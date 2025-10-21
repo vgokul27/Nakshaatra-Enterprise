@@ -110,7 +110,7 @@ const ServicesSection = () => {
                     <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-500 rounded-xl flex items-center justify-center mb-4 group-hover:from-blue-500 group-hover:to-blue-600 transition-all duration-300">
                       <Icon className="h-8 w-8 text-black" />
                     </div>
-                    <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 leading-tight">
+                    <h4 className="text-xs lg:text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 leading-tight">
                       {service.name}
                     </h4>
                   </div>
@@ -132,9 +132,9 @@ const ServicesSection = () => {
                   >
                     <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-200 group-hover:shadow-xl group-hover:border-blue-300 transition-all duration-300 text-center h-40 flex flex-col items-center justify-center">
                       <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-500 rounded-xl flex items-center justify-center mb-4 group-hover:from-blue-500 group-hover:to-blue-600 transition-all duration-300">
-                        <Icon className="h-8 w-8 text-black" />
+                        <Icon className="h-7 w-7 lg:h-7 lg:w-7 text-black" />
                       </div>
-                      <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 leading-tight">
+                      <h4 className="text-xs lg:text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 leading-tight">
                         {service.name}
                       </h4>
                     </div>
@@ -161,7 +161,7 @@ const ServicesSection = () => {
                     <div className="w-14 h-14 lg:w-14 lg:h-14 bg-gradient-to-br from-blue-400 to-blue-500 rounded-xl flex items-center justify-center mb-6 group-hover:from-blue-500 group-hover:to-blue-600 transition-all duration-300">
                       <Icon className="h-7 w-7 lg:h-7 lg:w-7 text-black" />
                     </div>
-                    <h4 className="text-xs lg:text-md font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 leading-tight px-2">
+                    <h4 className="text-xs lg:text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 leading-tight px-2">
                       {service.name}
                     </h4>
                   </div>
@@ -190,7 +190,7 @@ const ServicesSection = () => {
                   </div>
                   <h4
                     className={`font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-300 leading-tight ${
-                      isProjectBased ? "text-sm md:text-base" : "text-base"
+                      isProjectBased ? "text-xs md:text-sm" : "text-xs md:text-sm"
                     }`}
                   >
                     {service.name}
