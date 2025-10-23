@@ -11,6 +11,7 @@ import {
   Home,
   Truck,
   Zap,
+  Camera,
 } from "lucide-react";
 
 const AboutSection = () => {
@@ -269,6 +270,57 @@ const AboutSection = () => {
                 <p className="text-gray-600 text-sm font-medium">
                   {leader.role}
                 </p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+
+        {/* Gallery Section */}
+        <div className="mb-20">
+          <motion.div
+            className="text-center mb-12"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+          >
+            <div className="flex items-center justify-center mb-4">
+            <Camera className="h-8 w-8 text-blue-500 mr-3" />
+              <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
+                Gallery
+              </h3>
+            </div>
+            <p className="text-xl text-gray-600">
+              Inauguration and Pooja ceremony of the new office in West Bengal
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[1, 2, 3, 4, 5, 6].map((imageNum, index) => (
+              <motion.div
+                key={index}
+                className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                viewport={{ once: true }}
+              >
+                <div className="aspect-w-4 aspect-h-3 relative">
+                  <img
+                    src={`/pooja-pic${imageNum}.jpg`}
+                    alt={`Office Opening and Pooja Ceremony - Image ${imageNum}`}
+                    className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                    onError={(e) => {
+                      e.target.src = `https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Pooja+Ceremony+${imageNum}`;
+                    }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <p className="text-white text-sm font-medium bg-black/50 rounded-lg px-3 py-2 backdrop-blur-sm">
+                    Office Inauguration Ceremony - West Bengal
+                  </p>
+                </div>
               </motion.div>
             ))}
           </div>
